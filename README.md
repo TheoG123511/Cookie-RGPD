@@ -5,7 +5,7 @@
 
 - Run example.html
 
->> This code run only on server, because i use iframe tag.
+> This code run only on server, because i use iframe tag.
 
 ### Allow iframe (on nginx) :
 
