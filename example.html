@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example cookie</title>
+	<style>
+		.overlay {
+		    display: block;
+		    position: fixed;
+		    z-index: 2147483647;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    top: 0;
+		    height: 100%;
+		    width: 100%;
+		    max-width: 100%;
+		    background-color: rgba(0,0,0,.65);
+		    max-height: 100vh;
+		    opacity: 0.95;
+		    padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+<script>
+	(function () {
+    	value_or_null = (document.cookie.match(/^(?:.*;)?\s*_consents\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1]
+    	if (value_or_null === null) {
+    		document.body.innerHTML += '<div class="overlay"><iframe src="cookie.html" style="height: 100%; width: 100%;" frameborder="0" scrolling="no"></iframe></div>';
+    	}
+	})();
+</script>
+</body>
+</html>

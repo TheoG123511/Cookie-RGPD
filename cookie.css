@@ -1,0 +1,39 @@
+.message {
+
+    position: absolute;
+    z-index: 2147483646;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.overlay {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: transparent;
+    background-color: rgba(0,0,0,.65);
+    overflow: hidden;
+}
+
+.clicked {
+    color: #fff!important;
+    background-color: #007bff!important;
+    border-color: #007bff!important;
+}
+
+.content {
+    background: rgb(255, 255, 255);
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+.m-4p {
+    margin: 4px 0;
+}
